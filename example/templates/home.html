@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hello {{ user.username }}</h1>
+
+<p align=right><font color=white> Your account balance : {{ acctbal }} </font></p>
+<p align=center>
+ <a class="signup" href="/pocform"> Vault </a>
+
+ <a class="signup" href="/marketplace"> Marketplace </a>
+</p>
+     
+{% endblock %}

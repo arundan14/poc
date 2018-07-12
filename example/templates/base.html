@@ -1,0 +1,30 @@
+<html>
+    <head>
+	  <meta charset="UTF-8">
+      {% if title %}
+      <title>{{ title }} - 5Stone Platform</title>
+      {% else %}
+      <title>Welcome to 5Stone</title>
+      {% endif %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+ <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"> 
+    </head>
+    <body>
+        <div> 
+		<a href="/poc">Home</a>
+		<a href="/login">Login</a>
+	</div>
+        <hr>
+	{% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <ul>
+            {% for message in messages %}
+            <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </body>
+</html>

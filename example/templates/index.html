@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hi!</h1>
+    {% for post in posts %}
+     {% if post.body %}
+      <div><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
+     {% else %}
+      <div><p>{{ post.author.username }} says: <b>{{ post.name }}</b></p></div>
+     {% endif %}
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,20 @@
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Your Transactions</h1>
+<table border="1">
+  <tr>
+    <th>Hash</th>
+    <th>Activity</th> 
+    <th>Timestamp</th>
+  </tr>
+    {% for post in posts %}
+<tr>
+      <td>{{ post.hash }}</td> 
+		 <td>{{ post.activity }}</td>
+		 <td>{{ post.timestamp }}</td>
+      </tr>
+    {% endfor %} 
+</table>
+{% endblock %}

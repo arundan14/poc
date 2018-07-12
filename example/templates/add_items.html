@@ -1,0 +1,19 @@
+    {% extends "base.html" %}
+
+{% block content %}
+        <form action="" method="post">
+            {{ form.csrf }}
+ 
+            <div class="input text">
+        <!--        {{ form.name.label }} {{ form.name }}  -->
+	Name &nbsp &nbsp <input type="text" name="name">
+            </div>
+            <div class="input text">
+        <!--        {{ form.name.label }} {{ form.name }} -->
+	Price &nbsp &nbsp <input type="text" name="price">
+            </div>
+ 
+            <div class="input submit">
+                <input type="submit" value="Submit" />
+            </div>
+{% endblock %}
