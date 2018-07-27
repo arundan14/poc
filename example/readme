@@ -1,0 +1,11 @@
+The entire project needs flask installed and a few plugins for login forms and redirection
+all the css files are in /example/static
+and html in /example/templates
+ 
+if you open the example.py in /var/www/html/example, you will find all the html files i am actually using
+the login is  login.html
+then there is a base.html which is imported in all the pages and consists of only 2 links - home and login
+then landing page it is home.html
+
+the one with a table for vault is buyhandshake.html or just handshake.html
+

@@ -99,7 +99,7 @@ vault_item = [
             'owner': {'username': 'John'},
             'name': 'land',
             'price': '200,000',
-            'hash':'127e6fbfe24a750e72930c220a8e138275656b8e5d8f48a98c3c92df2caba935',
+            'hash':'8762jjsys997sfjguyxnw986ss976252830ksystz234tsabg3452bjr234ft415',
             'activity':'Uploaded land to vault',
             'timestamp':'Sun, 06 May 2018 14:49:27'
 
@@ -108,7 +108,7 @@ vault_item = [
             'owner': {'username': 'Jacob'},
             'name': 'music',
             'price': '50',
-            'hash':'eb368a2dfd38b405f014118c7d9747fcc97f4f0ee75c05963cd9da6ee65ef498',
+            'hash':'rtnch76420dhtjskfofys689203623nsys6s6s8f9g0sndif7654snj765snju40',
             'activity':'Uploaded music to vault',
             'timestamp':'Sun, 03 Jun 2018 14:49:27'
 
@@ -117,7 +117,7 @@ vault_item = [
             'owner': {'username': 'Sarah'},
             'name': 'car',
             'price': '20,000',
-            'hash':'ac578a2dfd38f404f017908h7u9725ffo97f4f0ee05963c63cd9da6ee60a8e13',
+            'hash':'hsyteb93629snhtdsnkf97349340djykskufdy0872bllbxytjs98625390ss653',
             'activity':'Uploaded car to vault',
             'timestamp':'Sun, 03 Jun 2018 14:49:27'
 
@@ -126,7 +126,7 @@ vault_item = [
             'owner': {'username': 'Hailey'},
             'name': 'car',
             'price': '20,000',
-            'hash':'ac578a2dfd38f404f017908h7u9725ffo97f4f0ee05963c63cd9da6ee60a8e13',
+            'hash':'br940a3egd384f50g76542idgwjuxgwm99736276428dsyxne762bksuxn872nm7',
             'activity':'Uploaded car to vault',
             'timestamp':'Sun, 03 Jun 2018 14:49:27'
 
@@ -291,19 +291,22 @@ def additems():
     #return render_template('hello.html', form=form)
     return render_template('add_items.html', form=form)
 
-@app.route('/sellhandshake/<object>',methods=['GET', 'POST'])
+@app.route('/sellhandshake/<object>/<hash>',methods=['GET', 'POST'])
 
-def sellhandshake(object):
+def sellhandshake(object,hash):
     form = ReusableForm(request.form)
 
     user = {'username': 'John'}
     posts = get_items()
     name='Arun'
+    for items in item:
+	if items['hash'] == hash:
+	  vault_item.append(dict(items))	
     print form.errors
 #    if request.method == 'POST':
 #         name=request.form['submit']
 #        print name
-    return render_template('list_handshake.html', name=object)
+    return render_template('list_handshake.html', name=object,hash=hash)
 #        return render_template('poc_handshake.html')
 
 
@@ -317,16 +320,20 @@ def buyhandshake(object):
     print form.errors
     return render_template('poc_handshake.html', name=object)
 
+@app.route('/buyvault/<object>',methods=['GET', 'POST'])
 
-@app.route('/myvault/<object>',methods=['GET', 'POST'])
-
-def myvault():
+def buyvault(object):
     form = ReusableForm(request.form)
-    posts = get_new_items()
-    posts['owner'] = {'username': 'Jane'}
+    user = {'username': 'Jane'}
     print form.errors
-    posts['name']=object
-    return render_template('newvault.html', title='Home', user=user, posts=posts, form=form)
+    posts = [
+                {
+                'owner':  {'username': 'Jane'},
+                'name':  object
+                }
+                ]
+    return render_template('newvault.html', name=object)
+
 
 @app.route('/jtrans',methods=['GET', 'POST'])
 
