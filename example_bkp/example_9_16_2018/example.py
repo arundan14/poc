@@ -7,8 +7,8 @@ import csv
 import time,datetime
 from wtforms import Form, TextField, TextAreaField, validators, StringField, SubmitField
 
-DATABASE = '/var/www/html/example/mvp.db'
-#DATABASE2 = '/var/www/html/example/indiv_transactions.db'
+DATABASE = '/var/www/html/example/bart.db'
+DATABASE2 = '/var/www/html/example/indiv_transactions.db'
 
 class ReusableForm(Form):
     name = TextField('Name:', validators=[validators.required()])
@@ -20,6 +20,8 @@ app.config.from_object(Config)
 def connect_to_database():
     return sqlite3.connect(app.config['DATABASE'])
 
+def connect_to_database2():
+    return sqlite3.connect(app.config['DATABASE2'])
 
 def get_db():
     db = getattr(g, 'db', None)
@@ -27,15 +29,21 @@ def get_db():
         db = g.db = connect_to_database()
     return db
 
+def get_db2():
+    db2 = getattr(g, 'db2', None)
+    if db2 is None:
+        db2 = g.db2 = connect_to_database2()
+    return db2
+
 
 @app.teardown_appcontext
 def close_connection(exception):
     db = getattr(g, 'db', None)
     if db is not None:
         db.close()
-#    db2 = getattr(g, 'db2', None)
-#    if db2 is not None:
-#        db2.close()
+    db2 = getattr(g, 'db2', None)
+    if db2 is not None:
+        db2.close()
 
 def execute_query(query, args=()):
     cur = get_db().execute(query, args)
@@ -43,6 +51,17 @@ def execute_query(query, args=()):
     cur.close()
     return rows
 
+def execute_query2(query, args=()):
+    cur = get_db2().execute(query, args)
+    rows = cur.fetchall()
+    cur.close()
+    return rows
+
+new_item =[{
+            'owner': {'username': 'Jane'},
+            'name': 'land'
+	}
+	]
 
 def get_new_item():
 	return new_item
@@ -199,6 +218,13 @@ def handshake():
 #         name=request.form['submit']
 #        print name
          return render_template('poc_handshake.html', name=name)
+#	 return render_template('poc_handshake.html')
+#        if form.validate():
+            # Save the comment here.
+#            flash('Hello ' + name)
+#            flash('SOLD')
+#        else:
+#            flash('All the form fields are required. ')
 
     #return render_template('hello.html', form=form)
     return render_template('jhandshake.html', title='Home', user=user, posts=posts, form=form)
@@ -252,6 +278,15 @@ def additems():
 	item.append(dict(additem))
 #	john_trans.append(dict(addtrans))
         return redirect('/pocform')
+#        return render_template('poc.html', title='Home', user=user, posts=posts, form=form)
+#        print name
+#         return render_template('poc_handshake.html')
+#        if form.validate():
+            # Save the comment here.
+#        flash('Hello ' + name +price)
+#            flash('SOLD')
+#        else:
+#            flash('All the form fields are required. ')
 
     #return render_template('hello.html', form=form)
     return render_template('add_items.html', form=form)
@@ -307,6 +342,21 @@ def jtrans():
 
     user = {'username': 'John'}
     posts = get_items()
+#    name='Arun'
+#    print form.errors
+#    if request.method == 'POST':
+#         name=request.form['submit']
+#        print name
+#         return render_template('poc_handshake.html', name=name)
+#        return render_template('poc_handshake.html')
+#        if form.validate():
+            # Save the comment here.
+#            flash('Hello ' + name)
+#            flash('SOLD')
+#        else:
+#            flash('All the form fields are required. ')
+
+    #return render_template('hello.html', form=form)
     return render_template('jtrans.html', title='Transactions', user=user, posts=posts, form=form)
 
  
@@ -326,10 +376,14 @@ def index():
     ]
     return render_template('index.html', title='Home', user=user, posts=posts)
 
+@app.route('/graph')
+def graph():
+    return render_template('graph.html')
 
-#@app.route('/pie')
-#def pie():
-#    return render_template('pie.html')
+
+@app.route('/pie')
+def pie():
+    return render_template('pie.html')
 
 
 @app.route('/login', methods=['GET', 'POST'])
@@ -348,17 +402,17 @@ def login():
 #        return redirect('/poc')
     return render_template('login.html', title='Sign In', form=form)
 
-#@app.route('/viewdb')
+@app.route('/viewdb')
 
-#def hello_world2():
-#  rows = execute_query("""SELECT * FROM natlpark""")
-#  return '<br>'.join(str(row) for row in rows)
+def hello_world2():
+  rows = execute_query("""SELECT * FROM natlpark""")
+  return '<br>'.join(str(row) for row in rows)
 
-#@app.route("/state/<state>")
-#def sortby(state):
-#    rows = execute_query("""SELECT * FROM natlpark WHERE state = ?""",
-#                         [state.title()])
-#    return '<br>'.join(str(row) for row in rows)
+@app.route("/state/<state>")
+def sortby(state):
+    rows = execute_query("""SELECT * FROM natlpark WHERE state = ?""",
+                         [state.title()])
+    return '<br>'.join(str(row) for row in rows)
 
 @app.route('/')
 def print_data():
@@ -392,81 +446,22 @@ def print_data():
 
 @app.route('/trans')
 def print_trans():
-    cur = get_db().cursor()
-    username='arundan14'
-    result = execute_query(
-        """SELECT *
-           FROM mvp_vault WHERE user_id = ? ORDER BY item_id desc""",  #WHERE user_id = ? """, #[username] 
-	(username,)
+    start_time = time.time()
+    cur = get_db2().cursor()
+    result = execute_query2(
+        """SELECT ac_no, trans_date, description, amount
+           FROM indiv_transactions"""
     )
+    #str_rows = [','.join(map(str, row)) for row in result]
     str_rows = [dict(acc_no=row[0], trans_date=row[1], description=row[2], amount=row[3]) for row in result]
+    #str_rows = 'Hello from bart!'
+    query_time = time.time() - start_time
+    #logging.info("executed query in %s" % query_time)
     cur.close()
   #  header = 'Account Number,Date,Description,Amount<br/>'
   #  return header + '<br/>'.join(str_rows)
     return render_template('trans.html', str_rows=str_rows)
 
-def validate_user(username):
-	count = 0
-	cur = get_db().cursor()
-#	cur = get_db().execute("SELECT user_id FROM mvp_users WHERE user_id=?", (username,))
-	result = execute_query("""SELECT user_id FROM mvp_users WHERE user_id = ? """, (username,))
-	print result
-	print "Hello World"
-#	rows = cur.fetchall()
-    	return result
-
-@app.route('/loginnew', methods=['GET', 'POST'])
-def loginnew():
-    form = ReusableForm(request.form)
-    if request.method == 'POST':
-           username = request.form['username']
-	   result = validate_user(username)
-           if result:
-	     return redirect('/poc')
-             #return redirect('/poc', username=username)
-	     #return redirect(url_for('poc', username=username))
-           else:
-             return redirect('/marketplace')
-#	   return render_template('display.html', title='Home', user=username, result=result)
-#    form = LoginForm()
-#    if form.validate_on_submit():
-#        flash('Login requested for user {}, remember_me={}'.format(
-#            form.username.data, form.remember_me.data))
-#        return redirect('/poc')
-    return render_template('login.html', title='Sign In', form=form)
-
-@app.route('/vault/<user>',methods=['GET', 'POST'])
-def vaulthome(user):
-    form = ReusableForm(request.form)
-    username = user
-    cur = get_db().cursor()
-#    posts = get_items()
-    result = execute_query(
-        """SELECT item_name, item_catg, Item_ID
-           FROM mvp_vault WHERE user_id = ? ORDER BY item_id desc""",  
-        (username,)
-    ) 
-    posts = [dict(item_name=row[0], item_catg=row[1], item_id=row[2]) for row in result]
-    cur.close()
-    print form.errors
-    if request.method == 'POST':
-        name=request.form['submit']
-        print name
-        if request.form['submit'] == 'Add_Item':
-#       flash('Hello ' + name)
-         return redirect('/additems')
-        else:
-#        flash('Hello ' + name)
-         return redirect('/handshake')
-#        if form.validate():
-            # Save the comment here.
-#         flash('Hello ' + name)
-#            flash('SOLD')
-#        else:
-#            flash('All the form fields are required. ')
-
-    #return render_template('hello.html', form=form)
-    return render_template('poc.html', title='Home', user=user, posts=posts, form=form)
 
 if __name__ == '__main__':
   app.run()

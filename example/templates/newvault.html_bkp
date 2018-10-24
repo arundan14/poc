@@ -1,0 +1,19 @@
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Vault </h1>
+<h3> Items in your vault are: <h3>
+ <table border="1">
+<tr>
+<th>Name</th>
+<th>Item</th>
+</tr>
+<tr>
+     <td> Jane </td>
+		 <td>{{ name }}</td>
+   <!--    <td> <a class="signup" href="/sellhandshake/{{ post.name }}"> Sell </a>
+</td> -->
+</tr> 
+</table>
+{% endblock %}

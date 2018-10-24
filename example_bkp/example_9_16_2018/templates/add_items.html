@@ -1,0 +1,31 @@
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    
+{% extends "base.html" %}
+
+{% block content %}
+ <table border="1">
+<tr>
+<th>Item Details</th>
+</tr>
+
+        <form action="" method="post">
+            {{ form.csrf }}
+<td> 
+            <div class="input text"> 
+        <!--        {{ form.name.label }} {{ form.name }}  -->
+	Item Name: </td>
+<td>
+<input type="text" name="name" >
+            </div> </td>
+<td>
+            <div class="input text"> 
+        <!--        {{ form.name.label }} {{ form.name }} -->
+	Price: </td>
+<td>
+ <input type="text" name="price">
+            </div> </td>
+ <td>
+            <div class="input submit">
+                <input type="submit" value="Submit" />
+            </div></td>
+{% endblock %}

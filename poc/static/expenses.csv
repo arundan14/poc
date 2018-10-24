@@ -1,0 +1,1001 @@
+Account Number,Date,Description,Amount
+500015,01/12/2017,Sales and Marketing,346
+500015,01/10/2017,Finances,321
+500015,01/04/2017,Asset Management,83
+500015,01/09/2017,Public Relations,594
+500015,01/07/2018,Quality Assurance,417
+500015,01/04/2018,Human Resources,50
+500015,01/07/2017,Customer Relations,405
+500015,01/05/2018,Payroll,401
+500015,01/06/2017,Media Relations,633
+500015,01/08/2017,Asset Management,52
+500015,01/12/2017,Sales and Marketing,427
+500015,01/05/2018,Media Relations,305
+500015,01/01/2018,Accounting,602
+500015,01/01/2017,Customer Relations,529
+500015,01/04/2018,Media Relations,612
+500015,01/05/2017,Advertising,685
+500015,01/08/2017,Advertising,922
+500015,01/01/2018,Media Relations,736
+500015,01/02/2018,Asset Management,764
+500015,01/03/2017,Human Resources,991
+500015,01/12/2017,Sales and Marketing,130
+500015,01/12/2017,Advertising,939
+500015,01/08/2017,Advertising,164
+500015,01/10/2017,Advertising,843
+500015,01/05/2017,Legal Department,809
+500015,01/07/2018,Human Resources,961
+500015,01/05/2018,Public Relations,477
+500015,01/12/2017,Public Relations,356
+500015,01/11/2017,Sales and Marketing,860
+500015,01/04/2017,Asset Management,300
+500015,01/05/2018,Media Relations,381
+500015,01/06/2018,Legal Department,250
+500015,01/12/2017,Asset Management,500
+500015,01/06/2017,Media Relations,254
+500015,01/01/2017,Human Resources,358
+500015,01/04/2018,Sales and Marketing,402
+500015,01/05/2018,Research and Development,965
+500015,01/02/2017,Media Relations,701
+500015,01/06/2017,Tech Support,647
+500015,01/05/2017,Asset Management,987
+500015,01/06/2017,Public Relations,132
+500015,01/01/2017,Sales and Marketing,150
+500015,02/04/2018,Legal Department,48
+500015,02/01/2018,Asset Management,53
+500015,02/05/2017,Human Resources,352
+500015,02/07/2017,Tech Support,466
+500015,02/12/2017,Legal Department,176
+500015,02/04/2018,Asset Management,265
+500015,02/04/2018,Customer Relations,486
+500015,02/06/2018,Tech Support,304
+500015,02/07/2018,Customer Relations,348
+500015,02/06/2018,Finances,741
+500015,02/03/2018,Media Relations,590
+500015,02/08/2017,Research and Development,704
+500015,02/03/2018,Media Relations,270
+500015,02/01/2018,Human Resources,10
+500015,02/03/2018,Human Resources,584
+500015,02/04/2017,Media Relations,827
+500015,02/05/2017,Customer Service,164
+500015,02/02/2017,Customer Relations,396
+500015,02/10/2017,Legal Department,136
+500015,02/04/2017,Research and Development,109
+500015,02/04/2017,Quality Assurance,465
+500015,02/10/2017,Customer Service,287
+500015,02/05/2018,Accounting,387
+500015,02/08/2017,Human Resources,605
+500015,03/08/2017,Finances,112
+500015,03/03/2017,Sales and Marketing,334
+500015,03/02/2017,Customer Service,929
+500015,03/07/2018,Quality Assurance,577
+500015,03/03/2018,Tech Support,151
+500015,03/02/2018,Media Relations,75
+500015,03/07/2018,Payroll,318
+500015,03/01/2018,Customer Relations,167
+500015,03/09/2017,Finances,486
+500015,03/07/2018,Sales and Marketing,27
+500015,03/01/2018,Human Resources,791
+500015,03/01/2018,Sales and Marketing,585
+500015,03/06/2017,Legal Department,229
+500015,03/02/2017,Advertising,493
+500015,03/03/2018,Media Relations,863
+500015,03/02/2017,Customer Relations,919
+500015,03/03/2018,Sales and Marketing,666
+500015,03/08/2017,Quality Assurance,872
+500015,03/06/2017,Media Relations,320
+500015,03/12/2017,Tech Support,304
+500015,03/08/2017,Media Relations,432
+500015,03/03/2017,Accounting,733
+500015,03/02/2018,Legal Department,276
+500015,03/02/2018,Customer Relations,265
+500015,03/01/2017,Tech Support,816
+500015,03/01/2017,Legal Department,767
+500015,03/08/2017,Customer Relations,610
+500015,03/06/2017,Legal Department,717
+500015,03/03/2017,Asset Management,451
+500015,03/09/2017,Human Resources,85
+500015,03/12/2017,Accounting,997
+500015,03/04/2018,Payroll,138
+500015,03/03/2018,Tech Support,223
+500015,03/12/2017,Payroll,906
+500015,03/03/2017,Finances,470
+500015,03/11/2017,Finances,600
+500015,03/01/2018,Customer Service,67
+500015,03/04/2017,Sales and Marketing,547
+500015,04/04/2017,Asset Management,139
+500015,04/03/2017,Human Resources,803
+500015,04/01/2017,Legal Department,325
+500015,04/11/2017,Public Relations,765
+500015,04/06/2018,Quality Assurance,134
+500015,04/05/2017,Research and Development,473
+500015,04/03/2018,Advertising,73
+500015,04/09/2017,Human Resources,714
+500015,04/06/2017,Tech Support,99
+500015,04/05/2017,Customer Service,249
+500015,04/04/2018,Customer Service,372
+500015,04/07/2018,Customer Service,883
+500015,04/06/2018,Human Resources,644
+500015,04/09/2017,Human Resources,817
+500015,04/01/2018,Sales and Marketing,358
+500015,04/01/2018,Advertising,354
+500015,04/03/2018,Media Relations,908
+500015,04/01/2017,Finances,451
+500015,04/02/2017,Asset Management,566
+500015,04/02/2017,Advertising,89
+500015,04/03/2018,Accounting,335
+500015,04/02/2017,Finances,175
+500015,04/04/2017,Legal Department,528
+500015,04/04/2017,Accounting,557
+500015,04/08/2017,Public Relations,700
+500015,04/12/2017,Customer Service,824
+500015,04/09/2017,Media Relations,956
+500015,04/04/2017,Customer Relations,823
+500015,04/08/2017,Accounting,810
+500015,04/02/2018,Quality Assurance,592
+500015,04/02/2018,Sales and Marketing,611
+500015,05/03/2018,Research and Development,526
+500015,05/05/2018,Customer Service,742
+500015,05/03/2018,Asset Management,258
+500015,05/03/2018,Sales and Marketing,207
+500015,05/06/2017,Customer Relations,278
+500015,05/10/2017,Research and Development,433
+500015,05/03/2018,Public Relations,450
+500015,05/04/2017,Asset Management,906
+500015,05/05/2018,Customer Service,418
+500015,05/07/2017,Asset Management,323
+500015,05/05/2018,Public Relations,393
+500015,05/11/2017,Tech Support,781
+500015,05/09/2017,Advertising,371
+500015,05/09/2017,Payroll,317
+500015,05/03/2017,Advertising,59
+500015,05/02/2017,Public Relations,34
+500015,05/12/2017,Payroll,1000
+500015,05/12/2017,Customer Relations,950
+500015,05/05/2017,Customer Service,819
+500015,05/04/2018,Accounting,191
+500015,05/05/2017,Quality Assurance,60
+500015,05/07/2017,Customer Service,20
+500015,05/03/2018,Legal Department,231
+500015,05/02/2017,Customer Relations,283
+500015,05/04/2017,Customer Relations,540
+500015,05/04/2018,Media Relations,318
+500015,05/07/2017,Asset Management,698
+500015,05/10/2017,Accounting,460
+500015,05/04/2018,Finances,872
+500015,05/03/2018,Human Resources,518
+500015,05/06/2018,Advertising,677
+500015,05/10/2017,Finances,365
+500015,05/04/2018,Tech Support,779
+500015,05/02/2018,Accounting,733
+500015,05/03/2017,Public Relations,884
+500015,05/01/2018,Quality Assurance,49
+500015,05/01/2017,Sales and Marketing,2
+500015,05/12/2017,Research and Development,970
+500015,05/03/2017,Quality Assurance,167
+500015,05/03/2018,Quality Assurance,844
+500015,05/05/2017,Human Resources,972
+500015,05/05/2018,Human Resources,846
+500015,05/07/2017,Media Relations,238
+500015,05/01/2017,Quality Assurance,567
+500015,05/03/2018,Research and Development,468
+500015,06/01/2017,Human Resources,637
+500015,06/09/2017,Legal Department,804
+500015,06/01/2017,Accounting,591
+500015,06/03/2018,Advertising,265
+500015,06/01/2017,Tech Support,636
+500015,06/02/2017,Legal Department,263
+500015,06/03/2017,Finances,215
+500015,06/07/2017,Customer Service,531
+500015,06/04/2017,Accounting,495
+500015,06/10/2017,Asset Management,839
+500015,06/03/2018,Advertising,425
+500015,06/08/2017,Sales and Marketing,515
+500015,06/03/2018,Legal Department,592
+500015,06/11/2017,Public Relations,750
+500015,06/05/2017,Research and Development,205
+500015,06/11/2017,Advertising,394
+500015,06/04/2017,Asset Management,669
+500015,06/08/2017,Payroll,235
+500015,06/12/2017,Research and Development,811
+500015,06/06/2017,Human Resources,815
+500015,06/02/2017,Advertising,189
+500015,06/07/2017,Tech Support,458
+500015,06/04/2017,Payroll,580
+500015,06/11/2017,Media Relations,519
+500015,06/01/2018,Finances,42
+500015,06/09/2017,Legal Department,228
+500015,06/11/2017,Customer Service,420
+500015,06/01/2017,Sales and Marketing,278
+500015,06/04/2018,Sales and Marketing,81
+500015,06/03/2018,Research and Development,607
+500015,06/09/2017,Human Resources,752
+500015,06/07/2018,Payroll,124
+500015,06/04/2018,Customer Relations,197
+500015,06/04/2017,Finances,104
+500015,06/02/2017,Payroll,63
+500015,06/07/2018,Legal Department,404
+500015,06/07/2018,Asset Management,48
+500015,07/02/2018,Legal Department,55
+500015,07/06/2017,Finances,901
+500015,07/03/2017,Accounting,380
+500015,07/10/2017,Public Relations,422
+500015,07/10/2017,Legal Department,953
+500015,07/04/2018,Quality Assurance,300
+500015,07/01/2017,Asset Management,644
+500015,07/09/2017,Asset Management,259
+500015,07/05/2017,Customer Relations,562
+500015,07/08/2017,Public Relations,83
+500015,07/10/2017,Legal Department,378
+500015,07/09/2017,Media Relations,480
+500015,07/03/2017,Customer Service,199
+500015,07/06/2018,Sales and Marketing,976
+500015,07/10/2017,Customer Relations,372
+500015,07/06/2017,Payroll,628
+500015,07/05/2017,Asset Management,957
+500015,07/06/2018,Tech Support,638
+500015,07/05/2018,Human Resources,658
+500015,07/02/2018,Advertising,886
+500015,07/12/2017,Finances,208
+500015,07/04/2017,Legal Department,234
+500015,07/02/2017,Tech Support,400
+500015,07/09/2017,Legal Department,882
+500015,07/09/2017,Tech Support,485
+500015,08/03/2018,Media Relations,48
+500015,08/02/2018,Accounting,147
+500015,08/09/2017,Quality Assurance,991
+500015,08/11/2017,Accounting,140
+500015,08/09/2017,Public Relations,308
+500015,08/05/2017,Finances,868
+500015,08/05/2017,Advertising,93
+500015,08/06/2017,Sales and Marketing,892
+500015,08/04/2017,Asset Management,788
+500015,08/11/2017,Media Relations,112
+500015,08/03/2018,Research and Development,553
+500015,08/08/2017,Legal Department,10
+500015,08/06/2018,Asset Management,495
+500015,08/12/2017,Finances,836
+500015,08/03/2018,Advertising,733
+500015,08/08/2017,Public Relations,845
+500015,08/12/2017,Payroll,980
+500015,08/06/2018,Tech Support,247
+500015,08/05/2018,Quality Assurance,574
+500015,08/05/2017,Payroll,66
+500015,08/01/2017,Sales and Marketing,602
+500015,08/05/2017,Human Resources,815
+500015,08/12/2017,Media Relations,910
+500015,08/11/2017,Legal Department,643
+500015,09/02/2017,Asset Management,275
+500015,09/02/2018,Finances,42
+500015,09/02/2018,Finances,511
+500015,09/02/2017,Legal Department,730
+500015,09/02/2017,Payroll,435
+500015,09/02/2018,Asset Management,468
+500015,09/01/2017,Customer Relations,908
+500015,09/01/2018,Legal Department,932
+500015,09/01/2018,Accounting,675
+500015,09/04/2017,Quality Assurance,520
+500015,09/09/2017,Finances,229
+500015,09/06/2017,Payroll,409
+500015,09/06/2017,Customer Relations,760
+500015,09/06/2017,Legal Department,135
+500015,09/02/2017,Customer Relations,730
+500015,09/12/2017,Research and Development,402
+500015,09/06/2017,Tech Support,213
+500015,09/07/2018,Tech Support,400
+500015,09/12/2017,Advertising,539
+500015,09/08/2017,Accounting,75
+500015,09/10/2017,Advertising,748
+500015,09/12/2017,Legal Department,312
+500015,09/03/2018,Asset Management,366
+500015,09/04/2018,Customer Relations,275
+500015,09/03/2018,Media Relations,12
+500015,09/04/2018,Customer Relations,385
+500015,09/05/2018,Customer Service,78
+500015,10/07/2017,Asset Management,701
+500015,10/05/2017,Sales and Marketing,903
+500015,10/07/2018,Quality Assurance,939
+500015,10/05/2017,Customer Service,964
+500015,10/07/2018,Advertising,39
+500015,10/01/2017,Media Relations,869
+500015,10/08/2017,Payroll,964
+500015,10/03/2018,Legal Department,593
+500015,10/12/2017,Accounting,303
+500015,10/06/2018,Legal Department,165
+500015,10/05/2018,Legal Department,542
+500015,10/12/2017,Research and Development,1000
+500015,10/06/2018,Human Resources,324
+500015,10/01/2018,Research and Development,973
+500015,10/07/2017,Accounting,513
+500015,10/07/2018,Legal Department,421
+500015,10/02/2017,Media Relations,578
+500015,10/02/2018,Accounting,680
+500015,10/09/2017,Payroll,312
+500015,10/08/2017,Quality Assurance,240
+500015,10/04/2018,Quality Assurance,944
+500015,10/03/2018,Public Relations,923
+500015,10/06/2017,Sales and Marketing,346
+500015,10/01/2017,Asset Management,144
+500015,10/04/2017,Customer Relations,436
+500015,11/07/2017,Sales and Marketing,636
+500015,11/02/2018,Research and Development,150
+500015,11/08/2017,Customer Relations,621
+500015,11/05/2017,Customer Service,632
+500015,11/02/2018,Asset Management,16
+500015,11/02/2017,Accounting,136
+500015,11/07/2017,Media Relations,570
+500015,11/04/2017,Sales and Marketing,677
+500015,11/08/2017,Public Relations,493
+500015,11/07/2017,Advertising,189
+500015,11/07/2018,Asset Management,676
+500015,11/06/2017,Asset Management,685
+500015,11/02/2017,Asset Management,95
+500015,11/11/2017,Tech Support,326
+500015,11/11/2017,Advertising,35
+500015,11/01/2018,Asset Management,630
+500015,11/04/2018,Accounting,239
+500015,11/08/2017,Sales and Marketing,390
+500015,11/02/2017,Media Relations,283
+500015,11/05/2018,Asset Management,899
+500015,11/07/2017,Customer Relations,561
+500015,11/01/2017,Research and Development,308
+500015,11/04/2017,Media Relations,584
+500015,11/03/2017,Quality Assurance,316
+500015,11/08/2017,Customer Relations,881
+500015,11/09/2017,Asset Management,237
+500015,11/07/2017,Human Resources,576
+500015,11/03/2018,Sales and Marketing,833
+500015,12/06/2018,Payroll,483
+500015,12/04/2017,Quality Assurance,941
+500015,12/06/2017,Customer Relations,234
+500015,12/09/2017,Payroll,87
+500015,12/03/2018,Quality Assurance,700
+500015,12/09/2017,Customer Service,797
+500015,12/04/2018,Accounting,387
+500015,12/07/2018,Payroll,485
+500015,12/12/2017,Media Relations,387
+500015,12/05/2018,Payroll,50
+500015,12/04/2018,Legal Department,483
+500015,12/03/2018,Media Relations,520
+500015,12/10/2017,Tech Support,148
+500015,12/06/2018,Public Relations,265
+500015,12/05/2017,Tech Support,363
+500015,12/03/2017,Payroll,149
+500015,12/01/2017,Quality Assurance,544
+500015,12/03/2017,Accounting,71
+500015,12/02/2017,Finances,140
+500015,12/06/2018,Human Resources,60
+500015,12/05/2017,Customer Service,940
+500015,12/07/2017,Public Relations,815
+500015,12/12/2017,Finances,733
+500015,12/02/2018,Customer Service,802
+500015,12/07/2018,Public Relations,202
+500015,12/05/2018,Media Relations,877
+500015,12/11/2017,Payroll,98
+500015,12/08/2017,Finances,309
+500015,13/10/2017,Customer Service,864
+500015,13/04/2017,Quality Assurance,712
+500015,13/09/2017,Human Resources,513
+500015,13/09/2017,Advertising,561
+500015,13/04/2017,Quality Assurance,417
+500015,13/11/2017,Media Relations,572
+500015,13/11/2017,Quality Assurance,622
+500015,13/09/2017,Media Relations,404
+500015,13/07/2017,Tech Support,631
+500015,13/09/2017,Human Resources,537
+500015,13/10/2017,Research and Development,528
+500015,13/12/2017,Public Relations,316
+500015,13/08/2017,Legal Department,731
+500015,13/04/2017,Payroll,528
+500015,13/02/2018,Sales and Marketing,86
+500015,13/04/2017,Advertising,725
+500015,13/02/2018,Media Relations,771
+500015,13/10/2017,Accounting,566
+500015,13/09/2017,Quality Assurance,723
+500015,13/07/2017,Customer Relations,510
+500015,13/11/2017,Research and Development,898
+500015,13/02/2018,Human Resources,124
+500015,13/03/2018,Legal Department,728
+500015,13/08/2017,Public Relations,304
+500015,13/10/2017,Accounting,21
+500015,13/11/2017,Media Relations,576
+500015,13/02/2017,Human Resources,864
+500015,13/02/2017,Finances,984
+500015,13/02/2017,Asset Management,950
+500015,13/02/2018,Public Relations,584
+500015,13/02/2017,Customer Relations,921
+500015,13/07/2017,Customer Service,423
+500015,13/01/2017,Accounting,544
+500015,13/04/2018,Human Resources,736
+500015,13/06/2017,Customer Relations,358
+500015,13/05/2017,Customer Service,282
+500015,13/05/2017,Public Relations,431
+500015,13/05/2017,Finances,288
+500015,13/07/2018,Payroll,785
+500015,13/05/2017,Advertising,796
+500015,13/10/2017,Tech Support,583
+500015,13/06/2017,Tech Support,607
+500015,13/08/2017,Quality Assurance,190
+500015,13/06/2017,Accounting,315
+500015,14/06/2018,Advertising,467
+500015,14/10/2017,Finances,988
+500015,14/07/2018,Advertising,982
+500015,14/02/2018,Advertising,675
+500015,14/02/2018,Tech Support,584
+500015,14/03/2018,Payroll,229
+500015,14/05/2017,Accounting,228
+500015,14/01/2018,Accounting,214
+500015,14/05/2017,Tech Support,660
+500015,14/02/2018,Sales and Marketing,631
+500015,14/02/2017,Sales and Marketing,160
+500015,14/09/2017,Media Relations,171
+500015,14/04/2018,Asset Management,319
+500015,14/05/2018,Research and Development,392
+500015,14/03/2017,Payroll,251
+500015,14/04/2018,Payroll,956
+500015,14/07/2018,Advertising,667
+500015,14/07/2018,Quality Assurance,266
+500015,14/09/2017,Sales and Marketing,79
+500015,14/05/2018,Payroll,868
+500015,14/03/2018,Advertising,730
+500015,14/08/2017,Advertising,46
+500015,14/06/2018,Finances,982
+500015,14/10/2017,Payroll,684
+500015,14/05/2017,Advertising,326
+500015,14/02/2018,Quality Assurance,836
+500015,15/03/2018,Legal Department,310
+500015,15/04/2018,Customer Relations,626
+500015,15/09/2017,Tech Support,65
+500015,15/06/2017,Human Resources,952
+500015,15/03/2018,Legal Department,501
+500015,15/06/2018,Asset Management,357
+500015,15/01/2017,Sales and Marketing,528
+500015,15/05/2018,Public Relations,493
+500015,15/08/2017,Quality Assurance,66
+500015,15/01/2017,Legal Department,429
+500015,15/02/2018,Quality Assurance,433
+500015,15/02/2017,Asset Management,183
+500015,15/04/2018,Media Relations,831
+500015,15/12/2017,Customer Service,17
+500015,15/05/2018,Customer Relations,498
+500015,15/10/2017,Accounting,316
+500015,15/11/2017,Media Relations,808
+500015,15/09/2017,Advertising,246
+500015,15/02/2018,Public Relations,658
+500015,15/04/2018,Customer Service,777
+500015,15/06/2018,Sales and Marketing,595
+500015,15/05/2017,Payroll,525
+500015,15/07/2018,Human Resources,480
+500015,15/09/2017,Customer Service,911
+500015,15/10/2017,Quality Assurance,113
+500015,15/06/2018,Human Resources,576
+500015,15/03/2017,Customer Service,728
+500015,15/09/2017,Advertising,612
+500015,15/08/2017,Tech Support,427
+500015,15/06/2018,Media Relations,24
+500015,15/03/2018,Customer Relations,887
+500015,16/03/2018,Quality Assurance,594
+500015,16/01/2017,Legal Department,190
+500015,16/02/2017,Human Resources,146
+500015,16/04/2018,Human Resources,503
+500015,16/06/2017,Quality Assurance,751
+500015,16/07/2018,Customer Service,15
+500015,16/04/2017,Tech Support,99
+500015,16/03/2018,Research and Development,101
+500015,16/04/2017,Payroll,51
+500015,16/04/2017,Human Resources,868
+500015,16/11/2017,Accounting,310
+500015,16/01/2018,Asset Management,292
+500015,16/03/2017,Accounting,978
+500015,16/08/2017,Quality Assurance,587
+500015,16/09/2017,Payroll,859
+500015,16/09/2017,Customer Service,662
+500015,16/06/2017,Advertising,827
+500015,16/11/2017,Media Relations,485
+500015,16/11/2017,Customer Relations,858
+500015,16/01/2018,Advertising,556
+500015,16/02/2017,Research and Development,972
+500015,16/10/2017,Human Resources,780
+500015,16/04/2017,Sales and Marketing,527
+500015,16/07/2018,Accounting,163
+500015,16/03/2018,Tech Support,890
+500015,16/10/2017,Human Resources,611
+500015,16/06/2017,Human Resources,835
+500015,16/05/2017,Payroll,278
+500015,16/08/2017,Payroll,718
+500015,16/03/2018,Payroll,236
+500015,16/02/2018,Asset Management,932
+500015,16/01/2018,Customer Relations,814
+500015,16/03/2018,Tech Support,514
+500015,17/03/2018,Tech Support,652
+500015,17/01/2017,Quality Assurance,398
+500015,17/01/2017,Research and Development,233
+500015,17/05/2018,Customer Service,871
+500015,17/02/2017,Public Relations,637
+500015,17/02/2017,Human Resources,544
+500015,17/01/2017,Accounting,956
+500015,17/01/2017,Customer Service,950
+500015,17/03/2017,Customer Service,266
+500015,17/03/2018,Media Relations,734
+500015,17/03/2017,Human Resources,823
+500015,17/11/2017,Human Resources,193
+500015,17/03/2017,Advertising,857
+500015,17/04/2017,Accounting,928
+500015,17/04/2017,Quality Assurance,380
+500015,17/07/2018,Research and Development,235
+500015,17/03/2017,Accounting,181
+500015,17/05/2017,Research and Development,351
+500015,17/05/2017,Research and Development,398
+500015,17/05/2017,Accounting,623
+500015,17/08/2017,Media Relations,884
+500015,17/05/2018,Payroll,493
+500015,17/07/2018,Finances,954
+500015,17/07/2017,Customer Relations,171
+500015,17/11/2017,Customer Relations,948
+500015,17/05/2017,Asset Management,790
+500015,17/09/2017,Customer Service,384
+500015,17/01/2018,Research and Development,102
+500015,17/01/2018,Public Relations,464
+500015,17/02/2018,Sales and Marketing,572
+500015,18/11/2017,Customer Relations,714
+500015,18/12/2017,Quality Assurance,556
+500015,18/07/2018,Customer Relations,71
+500015,18/02/2018,Media Relations,315
+500015,18/08/2017,Customer Relations,714
+500015,18/03/2018,Public Relations,729
+500015,18/05/2018,Asset Management,676
+500015,18/09/2017,Customer Relations,272
+500015,18/01/2018,Media Relations,942
+500015,18/01/2018,Advertising,617
+500015,18/07/2017,Advertising,562
+500015,18/01/2018,Customer Relations,985
+500015,18/07/2018,Tech Support,768
+500015,18/01/2017,Advertising,201
+500015,18/02/2017,Sales and Marketing,449
+500015,18/02/2018,Legal Department,762
+500015,18/03/2018,Accounting,244
+500015,18/03/2018,Customer Relations,957
+500015,18/03/2017,Human Resources,727
+500015,18/04/2018,Public Relations,407
+500015,18/03/2018,Tech Support,831
+500015,18/10/2017,Tech Support,703
+500015,18/04/2017,Research and Development,682
+500015,18/01/2017,Media Relations,462
+500015,18/09/2017,Customer Relations,976
+500015,18/11/2017,Payroll,320
+500015,18/06/2018,Finances,888
+500015,18/03/2017,Quality Assurance,817
+500015,19/01/2017,Research and Development,202
+500015,19/01/2017,Sales and Marketing,643
+500015,19/05/2017,Advertising,14
+500015,19/03/2018,Media Relations,695
+500015,19/06/2018,Finances,958
+500015,19/07/2018,Customer Service,12
+500015,19/02/2018,Advertising,902
+500015,19/07/2017,Accounting,378
+500015,19/02/2017,Public Relations,519
+500015,19/02/2018,Research and Development,354
+500015,19/05/2018,Human Resources,805
+500015,19/11/2017,Quality Assurance,84
+500015,19/12/2017,Legal Department,351
+500015,19/05/2017,Payroll,556
+500015,19/03/2018,Payroll,12
+500015,19/07/2017,Asset Management,621
+500015,19/01/2017,Human Resources,938
+500015,19/01/2017,Media Relations,672
+500015,19/07/2018,Quality Assurance,328
+500015,19/03/2018,Asset Management,819
+500015,19/07/2018,Media Relations,13
+500015,19/02/2017,Customer Relations,477
+500015,19/06/2017,Asset Management,245
+500015,19/08/2017,Public Relations,1
+500015,19/08/2017,Tech Support,726
+500015,19/11/2017,Customer Service,122
+500015,19/03/2018,Human Resources,669
+500015,19/09/2017,Advertising,12
+500015,19/10/2017,Customer Service,759
+500015,19/11/2017,Research and Development,966
+500015,19/04/2017,Accounting,550
+500015,20/05/2017,Quality Assurance,828
+500015,20/05/2017,Customer Relations,797
+500015,20/02/2018,Advertising,219
+500015,20/05/2017,Customer Relations,884
+500015,20/06/2017,Quality Assurance,665
+500015,20/01/2018,Accounting,475
+500015,20/01/2018,Advertising,133
+500015,20/05/2017,Customer Service,969
+500015,20/10/2017,Finances,619
+500015,20/02/2018,Public Relations,646
+500015,20/07/2018,Finances,248
+500015,20/03/2018,Media Relations,583
+500015,20/04/2017,Quality Assurance,868
+500015,20/02/2018,Media Relations,528
+500015,20/08/2017,Human Resources,79
+500015,20/01/2017,Payroll,288
+500015,20/09/2017,Tech Support,706
+500015,20/07/2017,Customer Relations,249
+500015,20/06/2018,Legal Department,639
+500015,20/06/2018,Asset Management,234
+500015,20/07/2018,Public Relations,970
+500015,20/07/2018,Public Relations,791
+500015,20/12/2017,Advertising,739
+500015,20/07/2017,Media Relations,219
+500015,20/11/2017,Media Relations,401
+500015,20/07/2017,Advertising,910
+500015,20/03/2018,Media Relations,745
+500015,20/04/2017,Media Relations,299
+500015,20/04/2017,Customer Relations,378
+500015,20/06/2017,Research and Development,259
+500015,20/08/2017,Finances,869
+500015,20/11/2017,Customer Relations,2
+500015,20/07/2018,Advertising,529
+500015,20/11/2017,Advertising,479
+500015,20/07/2017,Human Resources,897
+500015,20/03/2018,Media Relations,465
+500015,20/04/2018,Tech Support,520
+500015,20/03/2017,Sales and Marketing,586
+500015,20/10/2017,Finances,513
+500015,20/07/2018,Accounting,913
+500015,20/08/2017,Public Relations,144
+500015,20/10/2017,Legal Department,49
+500015,21/03/2017,Public Relations,558
+500015,21/02/2017,Tech Support,655
+500015,21/05/2018,Quality Assurance,615
+500015,21/03/2017,Payroll,580
+500015,21/01/2018,Payroll,537
+500015,21/07/2018,Tech Support,267
+500015,21/06/2018,Human Resources,732
+500015,21/01/2018,Sales and Marketing,898
+500015,21/03/2017,Quality Assurance,631
+500015,21/12/2017,Quality Assurance,308
+500015,21/02/2018,Media Relations,225
+500015,21/01/2017,Customer Relations,534
+500015,21/07/2018,Research and Development,120
+500015,21/02/2017,Accounting,756
+500015,21/07/2017,Asset Management,946
+500015,21/07/2017,Media Relations,684
+500015,21/07/2017,Customer Relations,696
+500015,21/07/2017,Research and Development,419
+500015,21/12/2017,Payroll,295
+500015,21/03/2018,Customer Relations,837
+500015,21/03/2018,Customer Service,789
+500015,21/04/2018,Advertising,679
+500015,21/06/2017,Asset Management,230
+500015,21/04/2018,Payroll,263
+500015,21/04/2018,Accounting,651
+500015,21/04/2018,Asset Management,128
+500015,21/11/2017,Customer Relations,313
+500015,21/04/2018,Quality Assurance,807
+500015,21/05/2018,Sales and Marketing,134
+500015,22/01/2017,Customer Service,276
+500015,22/03/2018,Customer Service,860
+500015,22/02/2017,Asset Management,439
+500015,22/05/2017,Legal Department,425
+500015,22/04/2017,Customer Service,783
+500015,22/01/2018,Payroll,987
+500015,22/02/2017,Research and Development,372
+500015,22/01/2018,Public Relations,296
+500015,22/03/2018,Media Relations,325
+500015,22/09/2017,Advertising,601
+500015,22/01/2017,Sales and Marketing,990
+500015,22/12/2017,Research and Development,110
+500015,22/07/2017,Customer Service,132
+500015,22/06/2017,Accounting,659
+500015,22/05/2018,Asset Management,381
+500015,22/12/2017,Human Resources,227
+500015,22/06/2017,Accounting,379
+500015,22/04/2018,Asset Management,887
+500015,22/04/2018,Quality Assurance,612
+500015,22/04/2018,Finances,985
+500015,22/04/2018,Tech Support,461
+500015,22/03/2018,Media Relations,184
+500015,22/12/2017,Tech Support,275
+500015,22/07/2018,Advertising,664
+500015,22/06/2018,Accounting,652
+500015,22/02/2018,Finances,603
+500015,22/02/2017,Payroll,861
+500015,22/06/2017,Advertising,975
+500015,22/07/2017,Human Resources,887
+500015,22/03/2018,Payroll,981
+500015,22/10/2017,Sales and Marketing,305
+500015,22/03/2018,Sales and Marketing,599
+500015,22/12/2017,Tech Support,975
+500015,22/07/2018,Legal Department,792
+500015,22/05/2018,Human Resources,486
+500015,22/07/2017,Research and Development,25
+500015,22/03/2018,Public Relations,629
+500015,23/02/2018,Research and Development,112
+500015,23/02/2017,Research and Development,953
+500015,23/02/2018,Legal Department,113
+500015,23/07/2018,Payroll,656
+500015,23/02/2018,Public Relations,656
+500015,23/01/2017,Customer Service,649
+500015,23/06/2018,Finances,774
+500015,23/06/2018,Customer Service,70
+500015,23/07/2017,Legal Department,65
+500015,23/07/2018,Human Resources,790
+500015,23/05/2017,Human Resources,641
+500015,23/12/2017,Human Resources,88
+500015,23/09/2017,Payroll,354
+500015,23/03/2018,Quality Assurance,513
+500015,23/06/2018,Advertising,974
+500015,23/12/2017,Payroll,846
+500015,23/03/2018,Payroll,515
+500015,23/12/2017,Media Relations,914
+500015,23/09/2017,Legal Department,748
+500015,23/06/2017,Human Resources,813
+500015,23/03/2017,Accounting,918
+500015,23/03/2018,Legal Department,802
+500015,23/01/2017,Human Resources,443
+500015,23/02/2017,Customer Service,476
+500015,23/11/2017,Research and Development,975
+500015,23/04/2017,Asset Management,352
+500015,23/12/2017,Tech Support,729
+500015,23/02/2018,Customer Service,484
+500015,23/07/2018,Legal Department,89
+500015,23/06/2018,Accounting,104
+500015,23/01/2018,Customer Service,857
+500015,23/12/2017,Public Relations,219
+500015,23/04/2017,Sales and Marketing,362
+500015,23/05/2017,Sales and Marketing,606
+500015,23/08/2017,Advertising,476
+500015,23/02/2018,Finances,666
+500015,23/04/2017,Human Resources,792
+500015,23/02/2017,Tech Support,255
+500015,23/03/2017,Research and Development,881
+500015,24/01/2018,Finances,973
+500015,24/01/2017,Customer Service,255
+500015,24/06/2017,Finances,5
+500015,24/04/2018,Finances,603
+500015,24/05/2018,Research and Development,945
+500015,24/10/2017,Legal Department,255
+500015,24/05/2018,Payroll,21
+500015,24/05/2018,Research and Development,781
+500015,24/05/2017,Research and Development,297
+500015,24/06/2017,Public Relations,707
+500015,24/03/2018,Human Resources,476
+500015,24/04/2018,Human Resources,84
+500015,24/10/2017,Media Relations,663
+500015,24/04/2017,Accounting,126
+500015,24/04/2018,Advertising,453
+500015,24/06/2017,Advertising,626
+500015,24/05/2017,Quality Assurance,603
+500015,24/03/2018,Payroll,176
+500015,24/12/2017,Sales and Marketing,743
+500015,24/03/2018,Customer Relations,180
+500015,24/04/2017,Human Resources,225
+500015,24/06/2018,Research and Development,834
+500015,24/02/2018,Accounting,28
+500015,24/06/2017,Media Relations,543
+500015,24/06/2018,Asset Management,65
+500015,24/03/2017,Accounting,640
+500015,24/01/2018,Customer Relations,299
+500015,24/02/2017,Human Resources,294
+500015,24/09/2017,Media Relations,230
+500015,24/02/2017,Asset Management,58
+500015,24/04/2017,Asset Management,112
+500015,24/07/2018,Customer Service,942
+500015,24/11/2017,Accounting,91
+500015,24/08/2017,Sales and Marketing,428
+500015,24/09/2017,Customer Relations,245
+500015,24/03/2018,Finances,595
+500015,24/03/2018,Accounting,109
+500015,24/03/2018,Public Relations,437
+500015,24/09/2017,Finances,665
+500015,24/09/2017,Advertising,542
+500015,24/01/2018,Quality Assurance,710
+500015,24/05/2018,Tech Support,659
+500015,24/03/2018,Asset Management,33
+500015,24/03/2017,Customer Relations,53
+500015,24/07/2018,Sales and Marketing,234
+500015,24/11/2017,Customer Relations,390
+500015,25/12/2017,Customer Relations,407
+500015,25/02/2018,Media Relations,731
+500015,25/01/2017,Tech Support,445
+500015,25/02/2017,Payroll,690
+500015,25/02/2017,Human Resources,997
+500015,25/06/2018,Advertising,875
+500015,25/07/2018,Public Relations,87
+500015,25/02/2017,Payroll,540
+500015,25/03/2017,Asset Management,925
+500015,25/06/2017,Legal Department,357
+500015,25/04/2018,Legal Department,737
+500015,25/01/2018,Media Relations,69
+500015,25/05/2018,Legal Department,539
+500015,25/06/2017,Research and Development,460
+500015,25/06/2017,Quality Assurance,289
+500015,25/01/2018,Legal Department,390
+500015,25/08/2017,Tech Support,47
+500015,25/01/2018,Research and Development,332
+500015,25/06/2018,Legal Department,330
+500015,25/01/2018,Human Resources,717
+500015,25/08/2017,Finances,368
+500015,25/09/2017,Advertising,849
+500015,25/10/2017,Asset Management,162
+500015,25/02/2018,Accounting,357
+500015,25/03/2018,Media Relations,326
+500015,25/03/2018,Payroll,707
+500015,25/12/2017,Public Relations,826
+500015,25/03/2018,Media Relations,882
+500015,25/03/2018,Media Relations,634
+500015,25/01/2018,Advertising,213
+500015,25/03/2018,Tech Support,361
+500015,25/07/2018,Quality Assurance,376
+500015,25/11/2017,Human Resources,144
+500015,25/05/2018,Human Resources,347
+500015,26/05/2018,Sales and Marketing,688
+500015,26/04/2018,Finances,644
+500015,26/12/2017,Legal Department,696
+500015,26/05/2018,Advertising,97
+500015,26/02/2018,Customer Service,822
+500015,26/04/2018,Human Resources,577
+500015,26/04/2018,Asset Management,680
+500015,26/06/2018,Accounting,378
+500015,26/10/2017,Public Relations,710
+500015,26/04/2017,Customer Service,855
+500015,26/05/2018,Tech Support,472
+500015,26/03/2018,Public Relations,912
+500015,26/06/2018,Finances,687
+500015,26/09/2017,Research and Development,221
+500015,26/06/2017,Human Resources,293
+500015,26/02/2018,Tech Support,512
+500015,26/10/2017,Advertising,120
+500015,26/07/2017,Quality Assurance,607
+500015,26/12/2017,Media Relations,361
+500015,26/02/2018,Asset Management,527
+500015,26/11/2017,Advertising,195
+500015,26/03/2018,Public Relations,228
+500015,26/02/2018,Customer Service,838
+500015,26/12/2017,Finances,259
+500015,26/03/2018,Human Resources,895
+500015,26/08/2017,Tech Support,278
+500015,26/03/2018,Media Relations,42
+500015,26/01/2017,Public Relations,970
+500015,26/07/2018,Tech Support,338
+500015,26/02/2018,Customer Service,398
+500015,26/04/2017,Sales and Marketing,186
+500015,26/10/2017,Legal Department,596
+500015,26/02/2017,Tech Support,982
+500015,26/12/2017,Asset Management,110
+500015,26/09/2017,Customer Service,993
+500015,26/05/2018,Sales and Marketing,902
+500015,27/07/2018,Payroll,733
+500015,27/04/2017,Tech Support,810
+500015,27/05/2018,Media Relations,205
+500015,27/07/2017,Sales and Marketing,248
+500015,27/12/2017,Tech Support,90
+500015,27/03/2017,Customer Relations,255
+500015,27/11/2017,Human Resources,552
+500015,27/03/2018,Legal Department,590
+500015,27/10/2017,Research and Development,12
+500015,27/10/2017,Media Relations,81
+500015,27/07/2017,Customer Relations,20
+500015,27/01/2017,Accounting,382
+500015,27/05/2018,Accounting,881
+500015,27/03/2018,Human Resources,398
+500015,27/01/2017,Payroll,310
+500015,27/02/2018,Sales and Marketing,469
+500015,27/02/2017,Media Relations,147
+500015,27/05/2018,Accounting,32
+500015,27/02/2017,Advertising,672
+500015,27/01/2017,Asset Management,436
+500015,27/06/2018,Sales and Marketing,100
+500015,27/10/2017,Asset Management,567
+500015,27/03/2018,Finances,626
+500015,27/11/2017,Human Resources,86
+500015,27/03/2018,Human Resources,820
+500015,27/03/2018,Quality Assurance,65
+500015,27/05/2017,Sales and Marketing,120
+500015,27/07/2017,Customer Service,329
+500015,27/05/2017,Customer Service,539
+500015,27/11/2017,Payroll,944
+500015,27/06/2018,Tech Support,43
+500015,27/04/2017,Media Relations,887
+500015,28/07/2017,Media Relations,874
+500015,28/10/2017,Accounting,513
+500015,28/10/2017,Payroll,407
+500015,28/02/2017,Customer Relations,40
+500015,28/04/2018,Accounting,239
+500015,28/09/2017,Asset Management,299
+500015,28/08/2017,Sales and Marketing,154
+500015,28/03/2017,Advertising,37
+500015,28/07/2017,Media Relations,261
+500015,28/06/2018,Asset Management,931
+500015,28/02/2018,Public Relations,956
+500015,28/10/2017,Customer Service,753
+500015,28/11/2017,Legal Department,804
+500015,28/06/2018,Tech Support,898
+500015,28/01/2018,Quality Assurance,676
+500015,28/05/2017,Research and Development,659
+500015,28/06/2018,Customer Service,974
+500015,28/12/2017,Tech Support,783
+500015,28/03/2018,Customer Relations,499
+500015,28/10/2017,Customer Relations,360
+500015,28/04/2018,Advertising,358
+500015,28/04/2017,Public Relations,151
+500015,28/04/2017,Customer Relations,635
+500015,28/02/2018,Public Relations,965
+500015,28/04/2017,Finances,677
+500015,28/03/2017,Finances,410
+500015,28/07/2018,Sales and Marketing,39
+500015,28/03/2017,Legal Department,349
+500015,28/03/2018,Tech Support,475
+500015,28/10/2017,Research and Development,412
+500015,29/08/2017,Public Relations,853
+500015,29/03/2018,Advertising,412
+500015,29/03/2018,Payroll,982
+500015,29/06/2017,Accounting,580
+500015,29/03/2018,Human Resources,942
+500015,29/04/2018,Finances,933
+500015,29/01/2018,Public Relations,364
+500015,29/05/2018,Customer Relations,735
+500015,29/03/2018,Asset Management,958
+500015,29/03/2018,Advertising,503
+500015,29/06/2017,Legal Department,138
+500015,29/12/2017,Accounting,404
+500015,29/01/2018,Public Relations,587
+500015,29/06/2018,Tech Support,826
+500015,29/12/2017,Asset Management,281
+500015,29/10/2017,Media Relations,979
+500015,29/05/2017,Advertising,852
+500015,29/07/2018,Accounting,378
+500015,29/05/2017,Research and Development,858
+500015,29/01/2018,Asset Management,549
+500015,29/07/2017,Finances,172
+500015,29/07/2018,Customer Relations,238
+500015,29/07/2017,Customer Service,92
+500015,29/08/2017,Customer Service,227
+500015,29/11/2017,Payroll,758
+500015,29/03/2018,Quality Assurance,211
+500015,29/05/2017,Media Relations,216
+500015,29/07/2018,Accounting,581
+500015,29/08/2017,Quality Assurance,278
+500015,29/07/2017,Research and Development,653
+500015,29/05/2018,Advertising,874
+500015,29/12/2017,Legal Department,135
+500015,29/07/2018,Customer Relations,556
+500015,29/01/2018,Finances,975
+500015,29/03/2018,Asset Management,616
+500015,29/05/2018,Human Resources,691
+500015,30/07/2017,Sales and Marketing,591
+500015,30/07/2017,Media Relations,479
+500015,30/10/2017,Media Relations,748
+500015,30/03/2017,Media Relations,696
+500015,30/07/2018,Accounting,226
+500015,30/03/2018,Finances,679
+500015,30/04/2017,Finances,55
+500015,30/03/2017,Advertising,926
+500015,30/12/2017,Asset Management,39
+500015,30/07/2018,Legal Department,750
+500015,30/03/2017,Payroll,144
+500015,30/05/2017,Public Relations,4
+500015,30/12/2017,Accounting,652
+500015,30/05/2018,Customer Service,694
+500015,30/03/2017,Payroll,809
+500015,30/04/2018,Sales and Marketing,86
+500015,30/08/2017,Human Resources,69
+500015,30/09/2017,Finances,795
+500015,30/03/2017,Research and Development,166
+500015,30/04/2017,Sales and Marketing,285
+500015,30/04/2018,Human Resources,928
+500015,30/06/2017,Customer Relations,935
+500015,30/01/2017,Sales and Marketing,641
+500015,30/07/2017,Media Relations,970
+500015,30/07/2017,Payroll,595
+500015,30/06/2018,Legal Department,289
+500015,30/05/2018,Asset Management,915
+500015,30/03/2017,Advertising,685
+500015,31/08/2017,Research and Development,378
+500015,31/08/2017,Payroll,962
+500015,31/10/2017,Sales and Marketing,415
+500015,31/03/2018,Accounting,253
+500015,31/03/2017,Human Resources,868
+500015,31/03/2017,Customer Relations,808
+500015,31/05/2018,Media Relations,218
+500015,31/05/2018,Public Relations,977
+500015,31/01/2018,Advertising,319
+500015,31/05/2017,Tech Support,661
+500015,31/03/2017,Advertising,407
+500015,31/12/2017,Tech Support,264
+500015,31/03/2018,Public Relations,19
+500015,31/07/2017,Customer Relations,272

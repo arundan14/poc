@@ -1,23 +1,19 @@
 <html>
     <head>
-	  <meta charset="UTF-8">
       {% if title %}
       <title>{{ title }} - 5Stone Platform</title>
       {% else %}
       <title>Welcome to 5Stone</title>
       {% endif %}
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-
- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"> 
     </head>
     <body>
-<br/>
-        <div> 
-<font size=4>&nbsp;&nbsp;&nbsp;&nbsp;		<a href="/poc">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div>Microblog: 
+		<a href="/index">Home</a>
 		<a href="/login">Login</a>
-</font>
+		<a href="/graph">Graph</a>
+		<a href="/pie">Pie</a>
 	</div>
-     <br/>   <hr> <br/> <br/>
+        <hr>
 	{% with messages = get_flashed_messages() %}
         {% if messages %}
         <ul>
